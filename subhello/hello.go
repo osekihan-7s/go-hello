@@ -9,3 +9,7 @@ func Hello(name string) {
 func Shello(name string) string {
 	return fmt.Sprint("Hello, ", name, " from subhello")
 }
+
+func Shello2(name string) string {
+	return fmt.Sprint("Hello, ", name, " from subhello")
+}
