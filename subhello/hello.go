@@ -11,5 +11,9 @@ func Shello(name string) string {
 }
 
 func Shello2(name string) string {
-	return fmt.Sprint("Hello, ", name, " from subhello")
+	return fmt.Sprint("Hello, ", name, " from subhello2")
+}
+
+func Shello3(name string) string {
+	return fmt.Sprint("Hello, ", name, " from subhello3")
 }
